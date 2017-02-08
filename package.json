@@ -1,0 +1,10 @@
+{
+ "name": "soon",
+ "version": "0.1.0",
+ "main": "app.js",
+ "author": "Siebe Van Dijck",
+ "license": "MIT",
+ "dependencies": {
+  "webpack": "^2.2.1"
+ }
+}
