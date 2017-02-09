@@ -1,13 +1,13 @@
-# Soon
+# now
 
 the app uses electron
 
 ## Usage
 
-run:
-```
-electron main.js
-```
+1. run `yarn` to install all dependencies
+2. run `npm run build`
+3. run `electron main.js`
+
 
 
 ## TODO

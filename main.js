@@ -12,7 +12,7 @@ function createWindow () {
 		width: 800,
 		height: 600,
 		titleBarStyle: 'hidden-inset',
-		title: 'Soon.app',
+		title: 'now.app',
 		backgroundColor: '#021826'
 	});
 

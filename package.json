@@ -1,10 +1,17 @@
 {
- "name": "soon",
+ "name": "now",
  "version": "0.1.0",
  "main": "app.js",
+ "scripts": {
+  "build": "webpack"
+ },
  "author": "Siebe Van Dijck",
  "license": "MIT",
  "dependencies": {
+  "babel-core": "^6.22.1",
+  "babel-loader": "^6.2.10",
+  "electron": "^1.4.15",
+  "fs": "^0.0.1-security",
   "webpack": "^2.2.1"
  }
 }
