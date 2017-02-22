@@ -3,8 +3,8 @@
 	"version": "0.1.0",
 	"main": "app.js",
 	"scripts": {
-		"start": "webpack-dev-server --config webpack.config.js",
-		"build": "webpack --config webpack.config.js"
+		"start": "webpack-dev-server --config config/webpack.config.dev.js",
+		"build": "webpack --config config/webpack.config.prod.js"
 	},
 	"author": "Siebe Van Dijck",
 	"license": "MIT",
@@ -23,6 +23,7 @@
 		"react-hot-loader": "3.0.0-beta.6",
 		"style-loader": "^0.13.1",
 		"webpack": "^2.2.1",
-		"webpack-dev-server": "^2.4.1"
+		"webpack-dev-server": "^2.4.1",
+		"webpack-merge": "^3.0.0"
 	}
 }

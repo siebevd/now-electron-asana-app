@@ -4,7 +4,7 @@ import styles from './App.css';
 const App = () => (
   <div>
 		<div className={styles.bar} />
-    <h2>Hello</h2>
+    <h2>Hello Siebear</h2>
   </div>
 );
 
