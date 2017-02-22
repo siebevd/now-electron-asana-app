@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+}
+
+.bar {
+	 -webkit-app-region: drag;
+	 height: 24px;
+	 width: 100%;
+	 padding: none;
+	 margin: 0px;
+}

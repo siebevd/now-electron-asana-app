@@ -6,10 +6,8 @@ body {
 
 
 #title-bar {
-
  -webkit-app-region: drag;
  height: 24px;
  padding: none;
  margin: 0px;
-
 }
