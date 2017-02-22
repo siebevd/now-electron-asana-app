@@ -50,4 +50,4 @@ module.exports = webpackMerge(baseConfig, {
 		new webpack.ExternalsPlugin('commonjs', ['electron'])
 
 	],
-};
+});

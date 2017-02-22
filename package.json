@@ -3,8 +3,9 @@
 	"version": "0.1.0",
 	"main": "app.js",
 	"scripts": {
-		"start": "webpack-dev-server --config config/webpack.config.dev.js",
-		"build": "webpack --config config/webpack.config.prod.js"
+		"dev": "webpack-dev-server --config config/webpack.config.dev.js",
+		"prod": "webpack --config config/webpack.config.prod.js",
+		"start": "electron main.js"
 	},
 	"author": "Siebe Van Dijck",
 	"license": "MIT",

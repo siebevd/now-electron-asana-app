@@ -5,8 +5,8 @@ the app uses electron
 ## Usage
 
 1. run `yarn` to install all dependencies
-2. run `npm start`
-3. run `electron main.js` in a separate window
+2. run `npm run dev`
+3. run `npm start` in a separate window
 
 
 
