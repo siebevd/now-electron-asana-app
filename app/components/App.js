@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './App.css';
 
-const App = () => (
-  <div>
+const App = (props) => (
+  <div className={styles.container}>
 		<div className={styles.bar} />
-    <h2>Hello</h2>
+		{!props.account.loggedIn && <button className={styles.loginBtn}>Login to Asana</button>}
   </div>
 );
 

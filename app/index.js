@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { AppContainer } from 'react-hot-loader';
 import reducers from './reducers';
 
-import App from './components/App';
+import VisibleApp from './containers/VisibleApp';
 
 
 const store = createStore(reducers);
@@ -25,12 +25,12 @@ const render = (Component) => {
 // document.onreadystatechange = function () {
 	// if (document.readyState == "complete") {
 
-		render(App);
+		render(VisibleApp);
 
 		// Hot Module Replacement API
 		if (module.hot) {
 			module.hot.accept('./components/App', () => {
-				render(App)
+				render(VisibleApp)
 			});
 		}
 

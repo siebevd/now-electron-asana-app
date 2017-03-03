@@ -2,10 +2,26 @@ body {
 	margin: 0;
 }
 
-.bar {
-	 -webkit-app-region: drag;
-	 height: 24px;
-	 width: 100%;
-	 padding: none;
-	 margin: 0px;
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.loginBtn {
+	padding: 10px 20px;
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, .1);
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 3px;
+	outline: none;
+	transition: background .3s;
+	&:hover {
+		background: rgba(255, 255, 255, .1);
+
+	}
 }
