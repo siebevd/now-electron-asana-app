@@ -8,13 +8,13 @@ import reducers from './reducers';
 import App from './components/App';
 
 
-const store = createStore(reducer);
+const store = createStore(reducers);
 
 // AppContainer is a necessary wrapper component for HMR
 const render = (Component) => {
 	ReactDOM.render(
 		<AppContainer>
-			<Provider>
+			<Provider store={store}>
 				<Component/>
 			</Provider>
 		</AppContainer>,
